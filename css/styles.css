@@ -27,12 +27,45 @@ img {
     border-radius: 5%;
 }
 
+footer {
+    margin: 5vw auto 2vw auto !important;
+    width: 100%;
+}
+
+a {
+    color: hsl(220, 15%, 55%);
+    text-decoration-style: dashed;
+}
+
+a:hover {
+    color: hsl(216, 95%, 58%);
+}
+
 /* Mobile - Phones & Small Tabs */
 
 @media (max-width: 768px) {
     body {
-        padding: 15% 5%;
+        padding: 20% 5% 5%;
     }
 }
 
 /* Desktop - Large Tabs, Laptops and bigger */
+
+@media (min-width: 769px) {
+    body {
+        padding: 20% 40% 0;
+    }
+
+    div {
+        border-radius: 20px !important;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+        padding-bottom: 0;
+    }
+}
